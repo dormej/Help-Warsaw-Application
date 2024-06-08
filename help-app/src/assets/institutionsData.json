@@ -1,0 +1,693 @@
+  {
+    "lunch": [
+        {
+          "district": "Praga Południe",
+          "name": "Caritas Diecezji Warszawsko-Praskiej Jadłodajnia dla ubogich im. św. Brata Alberta",
+          "shortName": "Jadłodajnia dla ubogich im. św. Brata Alberta",
+          "streetAddress": "Grochowska",
+          "numberAddress": "111/113",
+          "zipCode": "04-148",
+          "phoneNumber": ["22 818 43 86", "22 619 44 76"],
+          "limitOfPlaces": 100,
+          "takenPlaces": 30,
+          "openTime":
+          {
+            "1": {
+              "open": "11:00:00",
+              "close": "14:00:00"
+            },
+            "2": {
+              "open": "11:00:00",
+              "close": "14:00:00"
+            },
+            "3": {
+              "open": "11:00:00",
+              "close": "14:00:00"
+            },
+            "4": {
+              "open": "11:00:00",
+              "close": "14:00:00"
+            },
+            "5": {
+              "open": "11:00:00",
+              "close": "14:00:00"
+            },
+            "6": {
+              "open": "11:00:00",
+              "close": "23:00:00"
+            }
+          },
+          "email": "warszawa-praga@caritas.pl",
+          "googleMapUrl": "https://maps.app.goo.gl/YWzRt7FkNwdM3Jai6",
+          "info": ""
+        },
+        {
+          "district": "Śródmieście",
+          "name": "Jadłodajnia Św. Ryszarda Pampuri",
+          "shortName": "Jadłodajnia Św. Ryszarda Pampuri",
+          "streetAddress": "Sapieżyńska",
+          "numberAddress": "3",
+          "zipCode": "00-215",
+          "phoneNumber": "22 635 35 60",
+          "limitOfPlaces": 100,
+          "takenPlaces": 45,
+          "openTime":
+          {
+            "1": {
+              "open": "10:00:00",
+              "close": "12:00:00"
+            },
+            "2": {
+              "open": "10:00:00",
+              "close": "12:00:00"
+            },
+            "3": {
+              "open": "10:00:00",
+              "close": "12:00:00"
+            },
+            "4": {
+              "open": "10:00:00",
+              "close": "12:00:00"
+            },
+            "5": {
+              "open": "10:00:00",
+              "close": "12:00:00"
+            }
+          },
+          "email": "konwent.bonifratrow@wp.pl",
+          "googleMapUrl": "https://maps.app.goo.gl/h1erEeVV6B5LnwLZ8",
+          "info": ""
+        },
+        {
+          "district": "Śródmieście",
+          "name": "Klasztor Zakonu Braci Mniejszych Kapucynów w Warszawie",
+          "shortName": "Klasztor Kapucynów",
+          "streetAddress": "Kapucyńska",
+          "numberAddress": "4",
+          "zipCode": "00-245",
+          "phoneNumber": "797 907 148",
+          "limitOfPlaces": 100,
+          "takenPlaces": 98,
+          "openTime":
+          {
+            "1": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "2": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "3": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "4": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "5": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "6": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "7": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            }
+          },
+          "email": "konwent.bonifratrow@wp.pl",
+          "googleMapUrl": "https://maps.app.goo.gl/h1erEeVV6B5LnwLZ8",
+          "info": ""
+        },
+        {
+          "district": "Wawer",
+          "name": "Zgromadzenie Sióstr Świętego Feliksa z Kantalicjo Prowincja Matki Bożej Królowej Polski- Siostry Felicjanki",
+          "shortName": "Zgromadzenie Sióstr Felicjanek",
+          "streetAddress": "Azaliowa",
+          "numberAddress": "10A",
+          "zipCode": "04-539",
+          "phoneNumber": "509 172 166",
+          "limitOfPlaces": 100,
+          "takenPlaces": 100,
+          "openTime":
+          {
+            "1": {
+              "open": "10:00:00",
+              "close": "14:00:00"
+            },
+            "2": {
+              "open": "10:00:00",
+              "close": "14:00:00"
+            },
+            "3": {
+              "open": "10:00:00",
+              "close": "14:00:00"
+            },
+            "4": {
+              "open": "10:00:00",
+              "close": "14:00:00"
+            },
+            "5": {
+              "open": "10:00:00",
+              "close": "14:00:00"
+            },
+            "6": {
+              "open": "11:00:00",
+              "close": "12:00:00"
+            }
+          },
+          "email": "s.jadzia@wp.pl",
+          "googleMapUrl": "https://maps.app.goo.gl/UhUZBcmKpCTu3Fu66",
+          "info": ""
+        },
+      {
+          "district": "Wesoła",
+          "name": "Stowarzyszenie Alter Ego",
+          "shortName": "Stowarzyszenie Alter Ego",
+          "streetAddress": "Wiślana",
+          "numberAddress": "7",
+          "zipCode": "05-077",
+          "phoneNumber": "22 760 86 40",
+          "limitOfPlaces": 100,
+          "takenPlaces": 87,
+          "openTime":
+          {
+            "1": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "2": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "3": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "4": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "5": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "6": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "7": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            }
+          },
+          "email": "stowarzyszenie@alter-ego.org.pl",
+          "googleMapUrl": "https://maps.app.goo.gl/tVqarsmSq2i2UTbCA",
+          "info": ""
+        },
+        {
+          "district": "Wola",
+          "name": "Caritas Archidiecezji Warszawskiej",
+          "shortName": "Caritas Archidiecezji Warszawskiej",
+          "streetAddress": "Żytnia",
+          "numberAddress": "1A",
+          "zipCode": "01-014",
+          "phoneNumber": "22 838 70 25",
+          "limitOfPlaces": 100,
+          "takenPlaces": 23,
+          "openTime":
+          {
+            "1": {
+              "open": "13:00:00",
+              "close": ""
+            },
+            "3": {
+              "open": "13:00:00",
+              "close": ""
+            },
+            "5": {
+              "open": "13:00:00",
+              "close": ""
+            }
+          },
+          "email": "zytnia@caritasaw.pl",
+          "googleMapUrl": "https://maps.app.goo.gl/reXMYkd4JGRArMAV6",
+          "info": ""
+        },
+        {
+          "district": "Wola",
+          "name": "Zgromadzenie Księży Rogacjonistów",
+          "shortName": "Zgromadzenie Księży Rogacjonistów",
+          "streetAddress": "O. Boznańskiej",
+          "numberAddress": "21",
+          "zipCode": "01-100",
+          "phoneNumber": "22 836 80 00",
+          "limitOfPlaces": 0,
+          "takenPlaces": 0,
+          "openTime":
+          {
+            "1": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "2": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "3": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "4": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            },
+            "5": {
+              "open": "11:00:00",
+              "close": "13:00:00"
+            }
+          },
+          "email": "zytnia@caritasaw.pl",
+          "googleMapUrl": "https://maps.app.goo.gl/vJbhYVB7pdUMMiSK8",
+          "info": ""
+        }
+    ],
+    "heating": [
+      {
+        "id": 1,
+        "district": "Praga Południe",
+        "name": "Caritas Diecezji Warszawsko-Praskiej Ogrzewalnia dla ubogich im. św. Brata Alberta",
+        "shortName": "Ogrzewalnia dla ubogich im. św. Brata Alberta",
+        "streetAddress": "Grochowska",
+        "numberAddress": "111/113",
+        "zipCode": "04-148",
+        "phoneNumber": ["22 818 43 86", "22 619 44 76"],
+        "limitOfPlaces": 0,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "00:00:00",
+            "close": "00:00:00"
+          },
+          "2": {
+            "open": "00:00:00",
+            "close": "00:00:00"
+          },
+          "3": {
+            "open": "00:00:00",
+            "close": "00:00:00"
+          },
+          "4": {
+            "open": "00:00:00",
+            "close": "00:00:00"
+          },
+          "5": {
+            "open": "00:00:00",
+            "close": "00:00:00"
+          }
+        },
+        "email": ["warszawa-praga@caritas.pl", "grochowska@caritas.pl"],
+        "googleMapUrl": "https://maps.app.goo.gl/YWzRt7FkNwdM3Jai6",
+        "info": "Czynna w okresie od 1 października do 30 kwietnia."
+      },
+      {
+        "id": 2,
+        "district": "Targówek",
+        "name": "Noclegownia Warszawskiego Centrum Integracji „Integracyjna Warszawa”",
+        "shortName": "Warszawskie Centrum Integracji",
+        "streetAddress": "Kupiecka",
+        "numberAddress": "15",
+        "zipCode": "03-046",
+        "phoneNumber": "780 703 102",
+        "limitOfPlaces": 50,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "2": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "3": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "4": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "5": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "6": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "7": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          }
+        },
+        "email": "",
+        "googleMapUrl": "https://maps.app.goo.gl/2J7rDRi8Lm44iRJj7",
+        "info": "Możliwość pobytu osób z niepełnosprawnością."
+      },
+      {
+        "id": 3,
+        "district": "Targówek",
+        "name": "Warszawskie Centrum Integracji „Integracyjna Warszawa”",
+        "shortName": "Warszawskie Centrum Integracji",
+        "streetAddress": "Myśliborska",
+        "numberAddress": "53",
+        "zipCode": "03-128",
+        "phoneNumber": "723 246 077",
+        "limitOfPlaces": 50,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "2": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "3": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "4": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "5": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "6": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "7": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          }
+        },
+        "email": "",
+        "googleMapUrl": "https://maps.app.goo.gl/hEGNpsoCYwzbVYd36",
+        "info": "Miejsce tymczasowej interwencji schronienia"
+      },
+      {
+        "id": 4,
+        "district": "Wesoła",
+        "name": "Stowarzyszenie Alter Ego",
+        "shortName": "Stowarzyszenie Alter Ego",
+        "streetAddress": "Wiślana",
+        "numberAddress": "7",
+        "zipCode": "05-077",
+        "phoneNumber": "",
+        "limitOfPlaces": 0,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "8:00:00",
+            "close": "18:00:00"
+          },
+          "2": {
+            "open": "8:00:00",
+            "close": "18:00:00"
+          },
+          "3": {
+            "open": "8:00:00",
+            "close": "18:00:00"
+          },
+          "4": {
+            "open": "8:00:00",
+            "close": "18:00:00"
+          },
+          "5": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "6": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "7": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          }
+        },
+        "email": "",
+        "googleMapUrl": "https://maps.app.goo.gl/hEGNpsoCYwzbVYd36",
+        "info": "Miejsce tymczasowej interwencji schronienia"
+      }
+    ],
+    "shelter": [
+      {
+        "id": 1,
+        "district": "Targówek",
+        "name": "Noclegownia Warszawskiego Centrum Integracji „Integracyjna Warszawa”",
+        "shortName": "Warszawskie Centrum Integracji",
+        "streetAddress": "Kaczorowa",
+        "numberAddress": "39",
+        "zipCode": "03-046",
+        "phoneNumber": "661 035 565",
+        "limitOfPlaces": 100,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "2": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "3": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "4": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "5": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "6": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "7": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          }
+        },
+        "email": "",
+        "googleMapUrl": "https://maps.app.goo.gl/iw1A7ZoqZJYeGsMGA",
+        "info": "Możliwość pobytu osób z niepełnosprawnością."
+      },
+      {
+        "id": 2,
+        "district": "Targówek",
+        "name": "Noclegownia Warszawskiego Centrum Integracji „Integracyjna Warszawa”",
+        "shortName": "Warszawskie Centrum Integracji",
+        "streetAddress": "Kupiecka",
+        "numberAddress": "15",
+        "zipCode": "03-046",
+        "phoneNumber": "780 703 102",
+        "limitOfPlaces": 100,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "2": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "3": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "4": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "5": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "6": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "7": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          }
+        },
+        "email": "",
+        "googleMapUrl": "https://maps.app.goo.gl/2J7rDRi8Lm44iRJj7",
+        "info": "Możliwość pobytu osób z niepełnosprawnością."
+      },
+      {
+        "id": 3,
+        "district": "Targówek",
+        "name": "Warszawskie Centrum Integracji „Integracyjna Warszawa”",
+        "shortName": "Warszawskie Centrum Integracji",
+        "streetAddress": "Myśliborska",
+        "numberAddress": "53",
+        "zipCode": "03-128",
+        "phoneNumber": "723 246 077",
+        "limitOfPlaces": 95,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "2": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "3": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "4": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "5": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "6": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          },
+          "7": {
+            "open": "18:00:00",
+            "close": "8:00:00"
+          }
+        },
+        "email": "",
+        "googleMapUrl": "https://maps.app.goo.gl/hEGNpsoCYwzbVYd36",
+        "info": "Miejsce tymczasowej interwencji schronienia"
+      }
+    ],
+    "shower": [
+      {
+        "id": 1,
+        "district": "Praga Południe",
+        "name": "Caritas Diecezji Warszawsko-Praskiej Ogrzewalnia dla ubogich im. św. Brata Alberta",
+        "shortName": "Łaźnia dla ubogich im. św. Brata Alberta",
+        "streetAddress": "Grochowska",
+        "numberAddress": "111/113",
+        "zipCode": "04-148",
+        "phoneNumber": ["22 612 64 02"],
+        "limitOfPlaces": 0,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "2": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "3": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "4": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "5": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "6": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "7": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          }
+        },
+        "email": ["warszawa-praga@caritas.pl", "grochowska@caritas.pl"],
+        "googleMapUrl": "https://maps.app.goo.gl/YWzRt7FkNwdM3Jai6",
+        "info": "Od 1 października do 30 kwietnia noce, weekendowe dyżury interwencyjne dla osób przewożonych dla służby miejskiej w godzinach 18:00 - 6:00"
+      }
+    ],
+    "other": [
+      {
+        "id": 1,
+        "district": "Praga Południe",
+        "name": "Caritas Diecezji Warszawsko-Praskiej Ogrzewalnia dla ubogich im. św. Brata Alberta",
+        "shortName": "Magazyn z odzieżą dla ubogich im. św. Brata Alberta",
+        "streetAddress": "Grochowska",
+        "numberAddress": "111/113",
+        "zipCode": "04-148",
+        "phoneNumber": ["22 612 64 02"],
+        "limitOfPlaces": 0,
+        "takenPlaces": 0,
+        "openTime":
+        {
+          "1": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "2": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "3": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "4": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "5": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "6": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          },
+          "7": {
+            "open": "10:00:00",
+            "close": "14:00:00"
+          }
+        },
+        "email": ["warszawa-praga@caritas.pl", "grochowska@caritas.pl"],
+        "googleMapUrl": "https://maps.app.goo.gl/YWzRt7FkNwdM3Jai6",
+        "info": "Od 1 października do 30 kwietnia noce, weekendowe dyżury interwencyjne dla osób przewożonych dla służby miejskiej w godzinach 18:00 - 6:00"
+      }
+    ]
+}

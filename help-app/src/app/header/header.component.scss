@@ -1,0 +1,21 @@
+.header-container {
+  height: 8vh;
+  // background-color: rgb(37 140 245);
+  padding: 10px 15px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: 'Acme';
+
+  .header-text {
+    width: 100%;
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  i {
+    color: rgb(102, 102, 102);
+  }
+}

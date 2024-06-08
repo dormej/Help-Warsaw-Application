@@ -1,0 +1,114 @@
+ion-popover {
+
+
+}
+
+.item-title {
+  color: rgb(2 82 113);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.item {
+  a {
+    text-decoration: none;
+    color: var(--ion-color-primary-shade);
+  }
+}
+
+.card-header {
+  justify-content: space-between;
+  // display: flex;
+  align-items: center;
+  width: 100%;
+  // margin-bottom: 8px;
+}
+
+.details-items {
+  display: grid;
+
+  .item {
+    display: flex;
+    margin-bottom: 5px;
+  }
+}
+.list-item {
+  background-color: rgb(248, 248, 248);
+  border-bottom: 1px solid rgb(230,230,230);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+
+  .item-phone, .item-email, .item-limit, .item-address, .item-open {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  i {
+    color: rgba(179, 203, 255);
+    min-width: 30px;
+    width: 30px;
+  }
+}
+
+.district-header {
+  font-size: 18px;
+  color: rgb(50, 50, 50);
+  padding: 10px;
+  display: flex;
+  text-align: -webkit-center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.badge {
+    border-radius: 13px;
+    padding: 7px;
+    height: 17px;
+    background-color: rgba(178, 211, 220, 0.42);
+    width: 24px;
+    font-size: 12px;
+    border: 1px solid rgb(178, 211, 220);
+    color: rgb(37 140 245);
+    align-content: center;
+}
+
+.main-container {
+  padding: 15px 20px 60px;
+overflow: scroll;
+}
+
+.item {
+  display: contents;
+}
+
+.card-header-arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+  li {
+    list-style: none;
+    margin-right: 15px;
+
+
+     i {
+      justify-content: center;
+    border: 1px solid rgba(179, 203, 255, 0.7);
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: rgb(179, 203, 255);
+    font-size: 24px;
+    }
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+}
+
+.active {
+  border: 1px solid rgb(37 140 245)!important;
+  color: rgb(37 140 245) !important;
+}

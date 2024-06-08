@@ -1,0 +1,98 @@
+<ul class="btn-section">
+  <li (click)="goToDetailsList('lunch')">
+    <i [ngClass]="{'active': helpListName === 'lunch'}" class="fa-solid fa-utensils fa-2x"></i>
+  </li>
+  <li (click)="goToDetailsList('shelter')">
+    <span>
+      <i [ngClass]="{'active': helpListName === 'shelter'}"class="fa-solid fa-bed fa-2x"></i>
+    </span>
+  </li>
+  <li (click)="goToDetailsList('heating')">
+    <span>
+      <i [ngClass]="{'active': helpListName === 'heating'}"  class="fa-solid fa-fire fa-2x"></i>
+    </span>
+  </li>
+  <li (click)="goToDetailsList('shower')">
+    <span>
+      <i [ngClass]="{'active': helpListName === 'shower'}" class="fa-solid fa-shower fa-2x"></i>
+    </span>
+  </li>
+</ul>
+
+
+<app-filter-panel [filtersList]="filtersList" (onFilterChanged)="onFilterChanged($event)">
+</app-filter-panel>
+
+<div class="main-container">
+  @if(placeList) {
+        @for (district of uniqueDistrictList; track district.id) {
+          @if(getPlacesForDistrict(district).length) {
+              <div class="card-content">
+                  <div class="district-header">
+                      <span class="title-district"> {{ district }} </span>
+                      <span class="badge"> {{ getPlacesForDistrict(district).length }} </span>
+                  </div>
+
+                  <div class="list-items">
+                      @for(lunch of getPlacesForDistrict(district); track lunch.name) {
+                        <div class="list-item item-button ion-padding">
+                            <div class="card-header" (click)="openDetails(lunch.id)">
+                              <div class="card-header-arrow">
+                                <div class="item-title uppercase"> {{ lunch.shortName }}</div>
+                                <div>
+                                  @if(isDetailsOpen && openLunchId === lunch.id) {
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                  }
+                                  @else {
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                  }
+                                </div>
+                              </div>
+
+                              <div class="item-address">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <a href="{{ lunch.googleMapUrl }}">
+                                    ul. {{ lunch.streetAddress }} {{ lunch.numberAddress }}
+                                </a>
+                            </div>
+                            <div class="item-open">
+                              <i class="fa-solid fa-clock"></i>
+                              @if(isOpen(lunch)) {
+                                <span class="text-success">Otwarte | Zamknięcie o {{ closeH }}:{{ closeM }}</span>
+                              } @else {
+                                <span class="text-error">Zamknięte | Otwarcie o {{ openH }}:{{ openM }}</span>
+                              }
+                            </div>
+                          </div>
+                          @if(isDetailsOpen && openLunchId === lunch.id) {
+                            <div class="details-items">
+                              <div class="item">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>{{ lunch.phoneNumber }}</span>
+                              </div>
+                              <div class="item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>{{ lunch.email }}</span></div>
+                              <div class="item">
+                                <i class="fa-solid fa-person"></i>
+                                {{ lunch.takenPlaces}}/{{ lunch.limitOfPlaces }}
+                              </div>
+                            </div>
+                          }
+                        </div>
+                      }
+                    </div>
+
+
+
+                  <div>
+                </div>
+              </div>
+            }
+      }
+    }
+    @else {
+      Brak wyników
+    }
+</div>
+

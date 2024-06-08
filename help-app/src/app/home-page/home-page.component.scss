@@ -1,0 +1,55 @@
+button {
+  height: 20px;
+  padding: 10px;
+  background-color: green;
+}
+
+
+.cards-section {
+  font-family: 'Times New Roman';
+  height: 70vh;
+  display: grid;
+  padding: 20px 10px 10px;
+  align-content: baseline;
+  align-content: center;
+
+  .title-cards{
+    width: 100%;
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+    text-align: center;
+    font-family: "Acme";
+  }
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 25vh;
+      width: 100%;
+      border-radius: 25px;
+      background: rgb(255,255,255);
+      margin: 5px;
+      box-shadow: rgb(200, 200, 200) 0px 5px 10px 3px;
+      // border-bottom: 1px solid rgb(255, 255, 255);
+
+      .card-content {
+        text-align: center;
+        font-size: 13px;
+        color: rgb(6 101 146);
+        display: grid;
+
+        .title {
+          text-transform: uppercase;
+          padding: 12px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

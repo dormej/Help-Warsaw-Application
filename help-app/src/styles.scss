@@ -1,0 +1,25 @@
+
+// @font-face {
+//   font-family: "Kalam";
+//   src: url("fonts/Kalam-Regular.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "Acme";
+//   src: url("fonts/Acme-Regular.ttf") format("truetype");
+// }
+//
+// @font-face {
+//   font-family: "Cardo";
+//   src: url("fonts/Cardo-Regular.ttf") format("truetype");
+// }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240,240,240);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

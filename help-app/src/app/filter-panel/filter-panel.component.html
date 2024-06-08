@@ -1,0 +1,8 @@
+<div class="badges">
+  @for(filter of filtersList; track filter) {
+    <span class="badge" [ngClass]="{'active': filter.isActive}"
+      (click)="toggleFilter(filter)">
+      {{ filter.name }}
+  </span>
+  }
+</div>

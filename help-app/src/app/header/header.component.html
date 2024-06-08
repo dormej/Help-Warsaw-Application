@@ -1,0 +1,16 @@
+<div class="header-container">
+  @if(helpListName) {
+<!--    <a routerLink='/'>-->
+<!--    <i class="fa-solid fa-arrow-left fa-2x"></i>-->
+<!--   </a>-->
+   <span class="header-text">{{ getHelpLstName() }}</span>
+  }
+  @if(router.url === '/') {
+    <span class="header-text">Pomoc Warszawa</span>
+  }
+<!--  @else if (router.url === '/login') {-->
+<!--    <a routerLink='/'><i class="fa-solid fa-arrow-left"></i> </a>-->
+<!--    <span class="header-text">Zaloguj się</span>-->
+<!--  }-->
+</div>
+

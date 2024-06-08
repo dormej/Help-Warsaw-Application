@@ -1,0 +1,19 @@
+<div class="footer-container">
+  <ul>
+    <li>
+      <a routerLink='/'><i [ngClass]="{'active': router.url === '/'}" class="fa-solid fa-house"></i></a>
+    </li>
+    <li>
+      <a routerLink='/login'><i [ngClass]="{'active': router.url === '/login'}" class="fa-solid fa-user"></i></a>
+    </li>
+    <li>
+      <a routerLink='/add-coordinator'>
+        <i [ngClass]="{'active': router.url === '/add-coordinator'}" class="fa-solid fa-user-plus"></i></a>
+    </li>
+    <li>
+      <a routerLink='/add-place'>
+        <i [ngClass]="{'active': router.url === '/add-place'}" class="fa-regular fa-square-plus"></i>
+      </a>
+    </li>
+  </ul>
+</div>

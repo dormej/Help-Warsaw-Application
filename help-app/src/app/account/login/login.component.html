@@ -1,0 +1,12 @@
+<div class="login">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="login-title-block">
+      <span class="title"> Zaloguj się </span>
+      <span class="as-coordinator">jako koordynator placówki</span>
+    </div>
+
+    <input id="email" type="email" formControlName="email" placeholder="Email" required="">
+    <input id="password" type="password" formControlName="password" placeholder="Hasło" required="">
+    <button type="submit">Zaloguj się</button>
+  </form>
+</div>
